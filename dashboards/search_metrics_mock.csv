@@ -1,1 +1,10 @@
+Used on Day 4 for experiment evaluation
 
+
+
+
+Metric,Variant A,Variant B
+CTR,0.21,0.27
+Latency(ms),280,310
+Bounce Rate,0.42,0.33
+Engagement Time(s),42,56
