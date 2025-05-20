@@ -1,8 +1,3 @@
-Debug this C++ CLI tool 
-
-
-
-
 
 #include <iostream>
 #include <vector>
@@ -11,7 +6,6 @@ Debug this C++ CLI tool
 std::vector<std::string> searchKeyword(const std::vector<std::string>& data, const std::string& keyword) {
     std::vector<std::string> results;
     for (const auto& entry : data) {
-        // BUG: should use partial match
         if (entry == keyword) {
             results.push_back(entry);
         }
